@@ -7,6 +7,10 @@ authors = [
 ]
 dependencies = [
     "gempy>=2024.2.0.2",
+    "gempy-viewer>=2024.2.0",
+    "matplotlib>=3.10.0",
+    "pyvista>=0.44.2",
+    "numpy>=2.2.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.12"

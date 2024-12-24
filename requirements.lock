@@ -10,11 +10,66 @@
 #   universal: false
 
 -e file:.
+certifi==2024.12.14
+    # via requests
+charset-normalizer==3.4.1
+    # via requests
+contourpy==1.3.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+fonttools==4.55.3
+    # via matplotlib
 gempy==2024.2.0.2
     # via gempy-project
+    # via gempy-viewer
 gempy-engine==2024.2.0
     # via gempy
+gempy-viewer==2024.2.0
+    # via gempy-project
+idna==3.10
+    # via requests
+kiwisolver==1.4.8
+    # via matplotlib
+matplotlib==3.10.0
+    # via gempy-project
+    # via gempy-viewer
+    # via pyvista
+    # via vtk
 numpy==2.2.1
+    # via contourpy
     # via gempy-engine
+    # via gempy-project
+    # via gempy-viewer
+    # via matplotlib
+    # via pyvista
+packaging==24.2
+    # via matplotlib
+    # via pooch
+pillow==11.0.0
+    # via matplotlib
+    # via pyvista
+platformdirs==4.3.6
+    # via pooch
+pooch==1.8.2
+    # via pyvista
+pyparsing==3.2.0
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via matplotlib
 python-dotenv==1.0.1
     # via gempy-engine
+pyvista==0.44.2
+    # via gempy-project
+requests==2.32.3
+    # via pooch
+scooby==0.10.0
+    # via pyvista
+six==1.17.0
+    # via python-dateutil
+typing-extensions==4.12.2
+    # via pyvista
+urllib3==2.3.0
+    # via requests
+vtk==9.3.1
+    # via pyvista
